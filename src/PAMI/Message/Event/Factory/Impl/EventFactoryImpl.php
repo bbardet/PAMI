@@ -71,10 +71,11 @@ class EventFactoryImpl
         }
         $name = implode('', $parts);
         $className = '\\PAMI\\Message\\Event\\' . $name . 'Event';
-        if (class_exists($className, true)) {
+        try {
             return new $className($message);
+        }catch (\Exception $e){
+            return new UnknownEvent($message);
         }
-        return new UnknownEvent($message);
     }
 
     /**
