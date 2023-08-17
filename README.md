@@ -9,6 +9,9 @@
 
 [![Click here to lend your support to: PAMI and make a donation at pledgie.com !](https://pledgie.com/campaigns/30944.png?skin_name=chrome' border='0')](https://pledgie.com/campaigns/30944)
 
+FORK BY CENTRE DE GESTION DES VOSGES
+L'objectif est de tenir à jour cette librairie pour qu'elle fonctionne sur php8 et plus.
+
 # Introduction
 
 PAMI means PHP Asterisk Manager Interface. As its name suggests its just a
